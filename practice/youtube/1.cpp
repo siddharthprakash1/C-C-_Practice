@@ -2,6 +2,7 @@
 using namespace std;
 
 int main (){
+    /*
     int a;
     a=12;
     cout<<"size of int "<<a<<endl;
@@ -28,6 +29,20 @@ int main (){
     int sum=amnt1+amnt2;
     cout<<sum;
 
+    for (int i=0; i<10; i++){
 
+        cout<<"Wassup ";
+    }
+    */
+    int i=10;
+    while(i>0){
+    i--;
+    cout<<i;
+    }
+    i=10;
+    do{
+        i--;
+        cout<<i;
+    }while(i>0);
     return 0;  
 }
